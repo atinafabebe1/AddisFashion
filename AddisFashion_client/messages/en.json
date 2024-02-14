@@ -1,0 +1,100 @@
+{
+  "Index": {
+    "title": "hello"
+  },
+  "GiftBannerText": {
+    "text": "Invite a friend, claim a free men's outfit!"
+  },
+  "NavbarLinks": {
+    "Women": "ሰቶች",
+    "categories": {
+      "Women": {
+        "title": "Women",
+        "children": {
+          "Dresses": { "title": "Dresses" },
+          "Tops": { "title": "Tops" },
+          "Bottoms": { "title": "Bottoms" },
+          "Outerwear": { "title": "Outerwear" },
+          "Shoes": { "title": "Shoes" },
+          "Accessories": { "title": "Accessories" },
+          "Sportswear": { "title": "Sportswear" }
+        }
+      },
+      "Men": {
+        "title": "Men",
+        "children": {
+          "Suits": { "title": "Suits" },
+          "Shirts": { "title": "Shirts" },
+          "Jeans": { "title": "Jeans" },
+          "Jackets": { "title": "Jackets" },
+          "Shoes": { "title": "Shoes" },
+          "Accessories": { "title": "Accessories" },
+          "Athleisure": { "title": "Athleisure" }
+        }
+      },
+      "Kids": {
+        "title": "Kids",
+        "children": {
+          "Boys Clothing": { "title": "Boys Clothing" },
+          "Girls Clothing": { "title": "Girls Clothing" },
+          "Infant & Toddler": { "title": "Infant & Toddler" },
+          "Shoes": { "title": "Shoes" },
+          "Toys & Games": { "title": "Toys & Games" },
+          "Accessories": { "title": "Accessories" },
+          "School Uniforms": { "title": "School Uniforms" }
+        }
+      },
+      "Accessories": {
+        "title": "Accessories",
+        "children": {
+          "Hats": { "title": "Hats" },
+          "Bags": { "title": "Bags" },
+          "Jewelry": { "title": "Jewelry" },
+          "Scarves": { "title": "Scarves" },
+          "Gloves": { "title": "Gloves" },
+          "Watches": { "title": "Watches" },
+          "Belts": { "title": "Belts" }
+        }
+      },
+      "More": {
+        "title": "More"
+      }
+    }
+  },
+  "HeroSection": {
+    "heading": "Discover Ethiopian Elegance",
+    "paragraph": "Explore our fashion collection blending modern styles with Ethiopia's timeless tradition.",
+    "button": "Shop Now"
+  },
+  "footerLinks": {
+    "categories": [
+      {
+        "title": "About",
+        "links": [
+          { "title": "How it works" },
+          { "title": "Featured" },
+          { "title": "Partnership" },
+          { "title": "Business Relation" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "title": "Events" },
+          { "title": "Blog" },
+          { "title": "Podcast" },
+          { "title": "Invite a friend" }
+        ]
+      },
+      {
+        "title": "Socials",
+        "links": [
+          { "title": "Discord" },
+          { "title": "Instagram" },
+          { "title": "Twitter" },
+          { "title": "Facebook" }
+        ]
+      }
+    ]
+  }
+}

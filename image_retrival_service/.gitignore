@@ -1,0 +1,44 @@
+# Django-specific files
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+
+# Secret key
+secret_key.txt
+
+small_images/
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*~
+
+# Environment-specific settings
+.env
+*.keras
+
+# TensorFlow
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.dylib
+*.dll
+
+# Checkpoint files
+model.ckpt
+
+# Logs and checkpoints
+logs/
+checkpoints/

@@ -1,0 +1,56 @@
+.th {
+  padding: 0;
+}
+
+.control {
+  width: 100%;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+
+  @mixin hover {
+    background-color: light-dark(
+      var(--mantine-color-gray-0),
+      var(--mantine-color-dark-6)
+    );
+  }
+}
+.groupContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  width: 76%;
+  margin-right: 8px;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px !important;
+  background-color: #2cb54c !important;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #218838 !important;
+}
+
+.addIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.addProductText {
+  font-weight: bold;
+}
+.icon {
+  width: rem(21px);
+  height: rem(21px);
+  border-radius: rem(21px);
+}

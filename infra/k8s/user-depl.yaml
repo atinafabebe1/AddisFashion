@@ -1,0 +1,121 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: user
+  template:
+    metadata:
+      labels:
+        app: user
+    spec:
+      containers:
+        - name: user
+          image: atnafabebe/user_service
+          env:
+            - name: MONGODB_URI
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: MONGODB_URI
+            - name: PORT
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: PORT
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: JWT_SECRET
+            - name: REFERESH_JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: REFERESH_JWT_SECRET
+            - name: EMAIL_VERIFICATION_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: EMAIL_VERIFICATION_SECRET
+            - name: JWT_EXPIRE
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: JWT_EXPIRE
+            - name: REFRESH_JWT_EXPIRE
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: REFRESH_JWT_EXPIRE
+            - name: JWT_COOKIE_EXPIRE
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: JWT_COOKIE_EXPIRE
+            - name: EMAIL_TOKEN_EXPIRE
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: EMAIL_TOKEN_EXPIRE
+            - name: SMTP_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: SMTP_HOST
+            - name: SMTP_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: SMTP_PORT
+            - name: EMAIL_FROM
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: EMAIL_FROM
+            - name: FROM_NAME
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: FROM_NAME
+            - name: EMAIL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: EMAIL_PASSWORD
+            - name: BASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: BASE_URL
+            - name: ClOUDINARY_CLOUD_NAME
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: ClOUDINARY_CLOUD_NAME
+            - name: ClOUDINARY_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: ClOUDINARY_API_KEY
+            - name: ClOUDINARY_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: mysecrets
+                  key: ClOUDINARY_API_SECRET
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-svc
+spec:
+  selector:
+    app: user
+  ports:
+    - name: auth
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

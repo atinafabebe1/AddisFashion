@@ -1,0 +1,100 @@
+{
+  "Index": {
+    "title": "ሰላም"
+  },
+  "GiftBannerText": {
+    "text": "ጓደኛዎትን ይጋብዙ፤ በነጻ ልብስ ያግኙ"
+  },
+  "NavbarLinks": {
+    "Women": "ሴቶች",
+    "categories": {
+      "Women": {
+        "title": "ሴቶች",
+        "children": {
+          "Dresses": { "title": "ቀሚሶች" },
+          "Tops": { "title": "ኮትሎች" },
+          "Bottoms": { "title": "ታችኛዎች" },
+          "Outerwear": { "title": "የውጭ ልብስ" },
+          "Shoes": { "title": "ጫማዎች" },
+          "Accessories": { "title": "አክሲዮሪዎች" },
+          "Sportswear": { "title": "የስፖርት ልብስ" }
+        }
+      },
+      "Men": {
+        "title": "ወንዶች",
+        "children": {
+          "Suits": { "title": "ሱትዎች" },
+          "Shirts": { "title": "ሸሚዞች" },
+          "Jeans": { "title": "ጅንስ" },
+          "Jackets": { "title": "ጃኬቶች" },
+          "Shoes": { "title": "ጫማዎች" },
+          "Accessories": { "title": "አክሲዮሪዎች" },
+          "Athleisure": { "title": "አትሌዚየር" }
+        }
+      },
+      "Kids": {
+        "title": "ልጆች",
+        "children": {
+          "Boys Clothing": { "title": "የወንድ ልጆች ልብስ" },
+          "Girls Clothing": { "title": "የሴት ልጆች ልብስ" },
+          "Infant & Toddler": { "title": "ሕፃናት እና ተንቀሳቃሾች" },
+          "Shoes": { "title": "ጫማዎች" },
+          "Toys & Games": { "title": "የጨዋታ እና የጫወታ እቃዎች" },
+          "Accessories": { "title": "አክሲዮሪዎች" },
+          "School Uniforms": { "title": "የትምህርት ቤት ልብስ" }
+        }
+      },
+      "Accessories": {
+        "title": "አክሲዮሪዎች",
+        "children": {
+          "Hats": { "title": "ኮብያዎች" },
+          "Bags": { "title": "እቃ ቦታዎች" },
+          "Jewelry": { "title": "ጌጥ" },
+          "Scarves": { "title": "ሻርቆች" },
+          "Gloves": { "title": "ጋንታዎች" },
+          "Watches": { "title": "ሰዓቶች" },
+          "Belts": { "title": "ቀሚስ ቀለበቶች" }
+        }
+      },
+      "More": {
+        "title": "ተጨማሪ"
+      }
+    }
+  },
+  "HeroSection": {
+    "heading": "የኢትዮጵያ ውበታ ግኝት",
+    "paragraph": "የኢትዮጵያ ዘመናዊ ቅርጽ ከኢትዮጵያ ዘመናዊ ባህል ጋር የተዋሐደ የፋሽን ስብስብ ይመልከቱ።",
+    "button": "አሁን ይሸምቱ"
+  },
+  "footerLinks": {
+    "categories": [
+      {
+        "title": "ስለ",
+        "links": [
+          { "title": "እንዴት ይሰራል" },
+          { "title": "የተለያዩ" },
+          { "title": "አብራሪነት" },
+          { "title": "የኢንዱስትሪ ግንኙነት" }
+        ]
+      },
+      {
+        "title": "ኩባንያ",
+        "links": [
+          { "title": "ክስተቶች" },
+          { "title": "ብሎግ" },
+          { "title": "ፖድካስት" },
+          { "title": "ጓደኛ ይጋብዙ" }
+        ]
+      },
+      {
+        "title": "ሶሻልስ",
+        "links": [
+          { "title": "ዲስኮርድ" },
+          { "title": "ኢንስታግራም" },
+          { "title": "ትዊተር" },
+          { "title": "ፌስቡክ" }
+        ]
+      }
+    ]
+  }
+}
