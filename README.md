@@ -7,5 +7,6 @@ Welcome to our Addis Fashion Shopping Site! 🛍️ This platform is currently i
 - **Frontend Framework:** Next.js + Ts
 - **Inventory Management:** Vite with React + Ts
 - **Database:** MongoDB
+- **Message Queue:** RabbitMQ
 
 ## Contributions are welcome
