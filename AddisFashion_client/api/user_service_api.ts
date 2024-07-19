@@ -1,7 +1,7 @@
 import axios, { AxiosResponse, AxiosError, AxiosRequestConfig } from 'axios'
 
 export const BASE_URL = 'http://localhost:3100/api/user'
-// const BASE_URL = 'https://user-service-ehgo.onrender.com/api/user'
+// export const BASE_URL = 'https://user-service-ehgo.onrender.com/api/user'
 
 interface ApiResponse<T = any> {
   data: T

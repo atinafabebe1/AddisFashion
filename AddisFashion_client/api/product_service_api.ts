@@ -1,7 +1,7 @@
 import axios, { AxiosResponse, AxiosError } from 'axios'
 
-// const BASE_URL = 'https://product-service-9bog.onrender.com/api/product'
-const BASE_URL = 'http://localhost:3101/api/product'
+export const BASE_URL = 'https://product-service-9bog.onrender.com/api/product'
+// export const BASE_URL = 'http://localhost:3101/api/product'
 
 interface ApiResponse<T = any> {
   data: T
