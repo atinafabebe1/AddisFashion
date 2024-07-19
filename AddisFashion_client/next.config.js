@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  swcMinify: false,
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -10,7 +11,6 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
   },
-  swcMinify: false,
 
 }
 const withNextIntl = require('next-intl/plugin')(
